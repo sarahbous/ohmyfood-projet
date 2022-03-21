@@ -5,6 +5,8 @@
 	<title>Ohmyfood - Accueil</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+	<link rel='stylesheet' type='text/css' media='screen' href='desktop.css'>
+
 	<script src="https://kit.fontawesome.com/822cbda0d6.js" crossorigin="anonymous"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +18,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 </head>
 <body>
+	<div class="loading">
+		<span class=" loader loading-anim"></span>
+	</div>
 	<header>
 		<nav class="nav">
 			<div class="logo flex-center">
@@ -29,12 +34,12 @@
 			</div>
 		</nav>
 		<div class="fond-gris-header flex-center">
-			<h1> Réservez le menu qui vous convient</h1>
+			<h1> Réservez le menu qui<br> vous convient</h1>
 			<h2> Découvrez des restaurants d'exception, selectionnés par nos soins</h2>
 			<div class="flex-center">
 				<div class="btn">
 					<p>
-						<a href="#restaurants" class="font-color-white">Explorer nos restaurants</a>
+						<a href="page2.html"="font-color-white">Explorer nos restaurants</a>
 					</p>
 				</div>
 			</div>
@@ -42,7 +47,7 @@
 	</header>
 	<section>
 		<h2> Fonctionnement</h2>
-		<div class="flex-center">
+		<div class="flex-center desktop-flex">
 			<div class="onglet-gris">
 				<div class="icone-circle">
 					<span class="fa-stack">
@@ -52,7 +57,7 @@
 				</div>
 				<span class="fa-solid fa-mobile-screen-button icone-menu"></span>
 				<p>
-					<a href="#" class="a-style">choisissez un restaurant</a>
+					<a href="#" class="a-style">Choisissez un restaurant</a>
 				</p>
 			</div>
 			<div class="onglet-gris">
@@ -82,7 +87,7 @@
 		</section>
 		<section class="fond-gris">
 			<h2 id="restaurants"> Restaurants</h2>
-			<div class="flex-center">
+			<div class="flex-center desktop-onglet-carre">
 				<article class="onglet-carré">
 					<a href="page2.html" class="a-style">
 						<p class="nouveau">
@@ -94,7 +99,8 @@
 							<p>
 								Ménilmontant
 							</p>
-							<i class="far fa-heart size-2"></i>
+							<i class="far fa-heart"></i>
+							<i class="fas fa-heart"></i>
 						</div>
 					</a>
 				</article>
@@ -109,7 +115,8 @@
 							<p>
 								Charonne
 							</p>
-							<span class="far fa-heart"></span>
+							<i class="far fa-heart"></i>
+							<i class="fas fa-heart"></i>
 						</div>
 					</a>
 				</article>
@@ -124,7 +131,8 @@
 							<p>
 								Cité rouge
 							</p>
-							<span class="far fa-heart"></span>
+							<i class="far fa-heart"></i>
+							<i class="fas fa-heart"></i>
 						</div>
 					</a>
 				</article>
@@ -140,6 +148,7 @@
 								Folie-Méricourt
 							</p>
 							<i class="far fa-heart"></i>
+							<i class="fas fa-heart"></i>
 						</div>
 					</a>
 				</article>
@@ -160,6 +169,8 @@
 				<li><a href="mailto:test@test.com"class="font-color-white"> Contact</a></li>
 			</ul>
 		</footer>
-	</body>
+	</div>
+
+</body>
 </html>
 
