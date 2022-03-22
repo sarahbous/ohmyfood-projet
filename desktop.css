@@ -2,7 +2,7 @@
     .loading{
         height: 100%;
     }
-    .logo img{
+    .nav__logo img{
      width: 240px;   
     }
     .icone-map{
@@ -17,31 +17,30 @@
         height: 60px;
         font-size: 18px
     }
+    .onglet-gris{
+        width: 25%;
+        margin:2%;
+    }
 .desktop-flex{
     flex-direction: row;
     justify-content: space-between;
     margin-left:4%;
     
 }
-    .onglet-gris{
-        width: 25%;
-        margin:2%;
     
-    }
 .desktop-onglet-carre{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 5%
-    
-    
+       
 }
-.onglet-carré{
+.card{
     width: 40%;
-    margin-left: 5%;
+    margin-left:5%;
 }
 
-    .nouveau{
+    .card__nouveau{
         margin-left: 30%;
     }
 
@@ -50,35 +49,26 @@
         margin-left: 30%;
     }  
 
-    footer h4
-{
-font-family: 'Shrikhand', cursive;
-font-size: 22px;
-font-weight: 100;
-margin-left:5%;
-padding-top: 4%;
-letter-spacing: 1px;
 
-}
 
 /* PAGE MENUS*/
 .img-header img{
     height: 500px;
 }
 
-.titre-menu{
-    margin-left: 30%;
-}
+    .fa-2x{
+   position:absolute;
+        padding-left: 30px;
+        padding-top: 5px;
+       
+    }
     
 
 
-.fond-blanc-plats{
+.plats__fond{
     width: 60%;
 
 }
-    .animation-check{
-        margin-left: 550px;
-        margin-top: -73px;
-    }
+   
 
 }

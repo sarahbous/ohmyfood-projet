@@ -6,6 +6,8 @@
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='desktop.css'>
+	<link rel='stylesheet' type='text/css' media='screen' href='footer.css'>
+	<link rel='stylesheet' type='text/css' media='screen' href='loading_spinner.css'>
 
 	<script src="https://kit.fontawesome.com/822cbda0d6.js" crossorigin="anonymous"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,23 +25,25 @@
 	</div>
 	<header>
 		<nav class="nav">
-			<div class="logo flex-center">
+			<div class="nav__logo flex-center">
 				<img src="images/logo/ohmyfood.png" alt="logo Ohmyfood">
 			</div>
-			<div class="barre-recherche">
+			<div class="nav__recherche">
 				<i class="fa-solid fa-location-dot icone-map"></i>
 				<table>
 					<input type="search" placeholder="Paris, Belleville">
 				</table>
 			</div>
 		</nav>
-		<div class="fond-gris-header flex-center">
+		<div class="header__fond flex-center">
+			<div class="header__title">
 			<h1> Réservez le menu qui<br> vous convient</h1>
 			<h2> Découvrez des restaurants d'exception, selectionnés par nos soins</h2>
+		</div>
 			<div class="flex-center">
 				<div class="btn">
 					<p>
-						<a href="page2.html"="font-color-white">Explorer nos restaurants</a>
+						<a href="page2.html">Explorer nos restaurants</a>
 					</p>
 				</div>
 			</div>
@@ -85,16 +89,18 @@
 				</p>
 			</div>
 		</section>
-		<section class="fond-gris">
-			<h2 id="restaurants"> Restaurants</h2>
+		<section class="restaurants">
+			<h2 class="restaurants_title"> Restaurants</h2>
 			<div class="flex-center desktop-onglet-carre">
-				<article class="onglet-carré">
+				<article class="card">
 					<a href="page2.html" class="a-style">
-						<p class="nouveau">
+						<p class="card__nouveau">
 							Nouveau
 						</p>
+						<div class="card__img">
 						<img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Image du plat">
-						<div class="description">
+						</div>	
+						<div class="card__description">
 							<h3> La palette du goût</h3>
 							<p>
 								Ménilmontant
@@ -104,13 +110,15 @@
 						</div>
 					</a>
 				</article>
-				<article class="onglet-carré">
+				<article class="card">
 					<a href="" class="a-style">
-						<p class="nouveau">
+						<p class="card__nouveau">
 							Nouveau
 						</p>
+						<div class="card__img">
 						<img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Image du plat">
-						<div class="description">
+					</div>
+						<div class="card__description">
 							<h3> La note enchantée</h3>
 							<p>
 								Charonne
@@ -120,13 +128,15 @@
 						</div>
 					</a>
 				</article>
-				<article class="onglet-carré">
-					<a href="" class="a-style">
-						<p class="nouveau">
+				<article class="card">
+					<a href="page3.html" class="a-style">
+						<p class="card__nouveau">
 							Nouveau
 						</p>
+						<div class="card__img">
 						<img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Image du plat">
-						<div class="description">
+						</div>
+						<div class="card__description">
 							<h3> A la française</h3>
 							<p>
 								Cité rouge
@@ -136,13 +146,15 @@
 						</div>
 					</a>
 				</article>
-				<article class="onglet-carré">
+				<article class="card">
 					<a href="" class="a-style">
-						<p class="nouveau">
+						<p class="card__nouveau">
 							Nouveau
 						</p>
+						<div class="card__img">
 						<img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Image du plat">
-						<div class="description">
+					</div>
+						<div class="card__description">
 							<h3> Le délice des sens</h3>
 							<p>
 								Folie-Méricourt
@@ -154,19 +166,19 @@
 				</article>
 			</div>
 		</section>
-		<footer class="fond-footer">
-			<h4> ohmyfood</h4>
-			<ul>
-				<li>
+		<footer class="footer">
+			<h4 class="footer__title"> ohmyfood</h4>
+			<ul class="footer__ul">
+				<li class="footer__li">
 					<i class="fa-solid fa-utensils"></i>
 					<a href="#" class="font-color-white">Proposer un restaurant</a>
 				</li>
-				<li>
+				<li class="footer__li">
 					<i class="fa-solid fa-handshake-angle"></i>
 					<a href="#" class="font-color-white">Devenir partenaire</a>
 				</li>
-				<li><a href="#" class="font-color-white"> Mentions légales</a></li>
-				<li><a href="mailto:test@test.com"class="font-color-white"> Contact</a></li>
+				<li class="footer__li"><a href="#" class="font-color-white"> Mentions légales</a></li>
+				<li class="footer__li"><a href="mailto:test@test.com"class="font-color-white"> Contact</a></li>
 			</ul>
 		</footer>
 	</div>
