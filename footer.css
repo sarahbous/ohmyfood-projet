@@ -1,54 +1,62 @@
 
 .fond-gris
 {
-background-color: var(--couleur7);
-width: 100%;
+	background-color:#f6f6f6;
+	width: 100%;
 }
 
 .footer
 {
-background-color: var(--couleur6);
-
+	background-color:#353535;
+	display: flex;
+	flex-direction: column;
 }
 
-.footer__title h4
+.footer__title
 {
-font-family: var(--font-family);
-justify-content: center;
-font-size: 18px;
-font-weight: 100;
-padding-top: 1%;
-margin-bottom:2px;
-letter-spacing: 1px;
-color:white;
+	font-family:'Shrikhand', cursive;
+	font-size: 18px;
+	font-weight: 100;
+	padding-top: 1%;
+	margin-bottom:2px;
+	letter-spacing: 1px;
+	color:white;
+	padding-left: 8%;
 }
 
 .footer__ul
 {
-padding-bottom:20px;
-padding-top:-10px;
+	padding-bottom:20px;
+	padding-top:-10px;
+}
 
-}
-   .footer__ul{
-       display: flex;
-       justify-content: space-evenly;
-       justify-items:flex-start;
-       margin-left: 0;
-   }
-   
-@media screen and (min-width:990px) {
-    .footer__title
+.footer__ul
 {
-font-family: 'Shrikhand', cursive;
-font-size: 22px;
-display: flex;
-justify-content: center;
-font-weight: 100;
-padding-top: 4%;
-letter-spacing: 1px;
-color: white;
+	display: flex;
+	justify-content: space-evenly;
+	justify-items:flex-start;
+	flex-direction: column;
 }
-.footer__li{
-    margin-left: 1%;
-}
+
+/*DESKTOP*/
+@media screen and (min-width:990px)
+{
+	.footer__title
+	{
+		font-family: 'Shrikhand', cursive;
+		font-size: 22px;
+		display: flex;
+		justify-content: center;
+		font-weight: 100;
+		letter-spacing: 1px;
+		color: white;
+	}
+
+	.footer ul
+	{
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-right: 5%;
+	}
 }

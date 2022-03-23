@@ -1,0 +1,56 @@
+
+.plats__check
+{
+	width: 90px;
+	background-color:var(--tertiaire);
+	height: 100%;
+	border-radius:0px 20px 20px 0px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	margin-right: -100px;
+	transition: margin-right 1500ms ease-in-out;
+	transition-duration: 0.5s;
+}
+
+.plats__fond:hover .plats__check
+{
+	margin-right:-10px;
+}
+
+/*effet check*/
+.fa-circle-check
+{
+	font-size:40px;
+	transition: transform 1500ms linear;
+	transition-duration: 0.5s;
+}
+
+.plats__fond:hover .fa-circle-check
+{
+	transform: rotate(360deg);
+}
+
+/*effets menu*/
+article
+{
+	animation-duration: 3s;
+	animation-name: slidein;
+	transition-delay: transform 400ms;
+}
+
+@keyframes slidein
+{
+	from
+	{
+		opacity:0;
+		margin-bottom: 50%;
+	}
+
+	to
+	{
+		opacity: 1;
+		margin-left: 0%;
+	}
+}

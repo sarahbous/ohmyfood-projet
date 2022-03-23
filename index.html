@@ -1,10 +1,12 @@
 <!DOCTYPE html>
+<html lang="fr">
 <head>
 	<meta charset='utf-8'>
 	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
 	<title>Ohmyfood - Accueil</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
 	<link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+	<link rel='stylesheet' type='text/css' media='screen' href='head.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='desktop.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='footer.css'>
 	<link rel='stylesheet' type='text/css' media='screen' href='loading_spinner.css'>
@@ -24,16 +26,18 @@
 		<span class=" loader loading-anim"></span>
 	</div>
 	<header>
-		<nav class="nav">
-			<div class="nav__logo flex-center">
+			<div class="header__ombre">
+			<div class="header__logo flex-center">
 				<img src="images/logo/ohmyfood.png" alt="logo Ohmyfood">
 			</div>
+		</div>
 			<div class="nav__recherche">
 				<i class="fa-solid fa-location-dot icone-map"></i>
-				<table>
+				<div class="nav_input">
 					<input type="search" placeholder="Paris, Belleville">
-				</table>
+				</div>
 			</div>
+		
 		</nav>
 		<div class="header__fond flex-center">
 			<div class="header__title">
@@ -71,7 +75,7 @@
 						<span class="fa-stack-1x number">2</span>
 					</span>
 				</div>
-				<i class="fa-solid fa-list-ul icone-menu"></i>
+				<i class="fa-solid fa-list-ul icone-menu icone-color"></i>
 				<p>
 					<a href="#" class="a-style">Composez votre menu</a>
 				</p>
@@ -83,12 +87,13 @@
 						<span class="fa-stack-1x number">3</span>
 					</span>
 				</div>
-				<span class="fa-solid fa-store icone-menu icone-color"></span>
+				<span class="fa-solid fa-store icone-menu"></span>
 				<p>
 					<a href="#" class="a-style">Dégustez au restaurant</a>
 				</p>
 			</div>
-		</section>
+		</div>	
+	</section>	
 		<section class="restaurants">
 			<h2 class="restaurants_title"> Restaurants</h2>
 			<div class="flex-center desktop-onglet-carre">
@@ -111,7 +116,7 @@
 					</a>
 				</article>
 				<article class="card">
-					<a href="" class="a-style">
+					<a href="page3.html" class="a-style">
 						<p class="card__nouveau">
 							Nouveau
 						</p>
@@ -129,7 +134,7 @@
 					</a>
 				</article>
 				<article class="card">
-					<a href="page3.html" class="a-style">
+					<a href="page4.html" class="a-style">
 						<p class="card__nouveau">
 							Nouveau
 						</p>
@@ -147,7 +152,7 @@
 					</a>
 				</article>
 				<article class="card">
-					<a href="" class="a-style">
+					<a href="page5.html" class="a-style">
 						<p class="card__nouveau">
 							Nouveau
 						</p>
@@ -178,11 +183,9 @@
 					<a href="#" class="font-color-white">Devenir partenaire</a>
 				</li>
 				<li class="footer__li"><a href="#" class="font-color-white"> Mentions légales</a></li>
-				<li class="footer__li"><a href="mailto:test@test.com"class="font-color-white"> Contact</a></li>
+				<li class="footer__li"><a href="mailto:test@test.com" class="font-color-white"> Contact</a></li>
 			</ul>
 		</footer>
-	</div>
-
 </body>
 </html>
 

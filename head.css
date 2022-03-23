@@ -1,0 +1,49 @@
+
+.header__ombre
+{
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	height: 50px;
+	margin-bottom: 1px;
+}
+
+.header__logo img
+{
+	width: 190px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.nav__recherche
+{
+	background-color:#eaeaea;
+	height: 80px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+}
+
+.icone-map
+{
+	margin-right: 15px;
+	margin-left: 30px;
+}
+
+input
+{
+	background:#eaeaea;
+	border:none;
+	font-size:16px;
+	font-weight: 600;
+}
+
+@media screen and (min-width:990px)
+{
+	.header__logo img
+	{
+		width: 200px;
+	}
+}
+
