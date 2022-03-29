@@ -40,7 +40,7 @@
 .menu__titre
 {
 	display: flex;
-	justify-content: center;
+
 }
 
 .menu__titre h1
@@ -53,8 +53,9 @@
 .fa-2x
 {
 	position: absolute;
-	padding-left:7%;
+	padding-left:;
 	padding-top: 5px;
+	margin-left: 83%;
 }
 
 .plats__fond
@@ -120,7 +121,7 @@
 
 .espace
 {
-	width: 50px;
+	width: 25px;
 }
 
 .ligne-2

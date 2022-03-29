@@ -1,4 +1,4 @@
-
+/*effet check*/
 .plats__check
 {
 	width: 90px;
@@ -19,7 +19,7 @@
 	margin-right:-10px;
 }
 
-/*effet check*/
+
 .fa-circle-check
 {
 	font-size:40px;
@@ -33,7 +33,7 @@
 }
 
 /*effets menu*/
-article
+.plats_fond
 {
 	animation-duration: 3s;
 	animation-name: slidein;

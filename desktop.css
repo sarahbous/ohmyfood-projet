@@ -55,7 +55,9 @@
 	{
 		height: 500px;
 	}
-
+	.menu__titre{
+		justify-content: center;
+	}
 	.fa-2x
 	{
 		position:absolute;
