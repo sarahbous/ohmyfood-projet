@@ -47,13 +47,12 @@
 {
 	font-size: 28px;
 	font-family: var(--font-family);
-	margin-left: 5%;
+	
 }
 
 .fa-2x
 {
 	position: absolute;
-	padding-left:;
 	padding-top: 5px;
 	margin-left: 83%;
 }
