@@ -12,6 +12,7 @@
 	margin-right: -100px;
 	transition: margin-right 1500ms ease-in-out;
 	transition-duration: 0.5s;
+	margin-bottom: -15px;
 }
 
 .plats__fond:hover .plats__check
@@ -22,9 +23,12 @@
 
 .fa-circle-check
 {
-	font-size:40px;
+	font-size:25px;
 	transition: transform 1500ms linear;
 	transition-duration: 0.5s;
+	align-items:center;
+  justify-content: center;
+	display: flex;
 }
 
 .plats__fond:hover .fa-circle-check
@@ -33,7 +37,7 @@
 }
 
 /*effets menu*/
-.menus
+.plats__fond
 {
 animation-name: slidein;
 animation-duration: 3000ms;	
@@ -42,19 +46,6 @@ animation-timing-function: ease-in-out;
 animation-iteration-count: 1;
 
 }
-/*
-
-@keyframes animationplat {
-0%{
-	transform: translateY(20vh);
-	opacity: 0;
-} 
-100%{
-	transform: translateY(0px);
-	opacity: 1;
-}
-}
-*/
 
 
 

@@ -47,6 +47,9 @@ body
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	background: linear-gradient(to top,#9356DC,#FF79DA);
 	transition: transform 200ms;
+	align-items:center;
+  justify-content: center;
+	display:flex;
 }
 
 .btn:hover

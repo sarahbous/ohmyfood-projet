@@ -69,4 +69,7 @@
 	{
 		width: 50%;
 	}
+	.plats__fond:hover h3{
+		width: 400px;	
+		}
 }
