@@ -33,24 +33,43 @@
 }
 
 /*effets menu*/
-.plats_fond
+.menus
 {
-	animation-duration: 3s;
-	animation-name: slidein;
-	transition-delay: transform 400ms;
+animation-name: slidein;
+animation-duration: 3000ms;	
+animation-delay: 500ms;
+animation-timing-function: ease-in-out;
+animation-iteration-count: 1;
+
 }
+/*
+
+@keyframes animationplat {
+0%{
+	transform: translateY(20vh);
+	opacity: 0;
+} 
+100%{
+	transform: translateY(0px);
+	opacity: 1;
+}
+}
+*/
+
+
+
 
 @keyframes slidein
 {
-	from
+	0%
 	{
 		opacity:0;
 		margin-bottom: 50%;
 	}
 
-	to
+	100%
 	{
 		opacity: 1;
-		margin-left: 0%;
+		margin-bottom: 0%;
 	}
 }
